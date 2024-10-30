@@ -1,59 +1,60 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+StegoCrypt is a dual-layer security tool that combines cryptography and steganography to protect sensitive information during transmission. By encrypting data and hiding it within digital media, such as images or audio files, StegoCrypt ensures both data confidentiality and concealment.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+StegoCrypt is a secure communication tool that integrates cryptography and steganography to provide dual-layer protection for sensitive data during transmission. This system ensures that data is both encrypted (using cryptographic techniques) and concealed (using steganographic methods) within digital media files such as images or audio. The goal of StegoCrypt is to prevent unauthorized access and minimize the risk of data detection and interception by attackers. This project uses MATLAB for implementing and simulating encryption algorithms, embedding methods, and performance testing.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Dual-Layer Security: Combines cryptography (for encryption) and steganography (for data concealment) to enhance security.
+- Symmetric and Asymmetric Encryption Options: Users can choose between symmetric encryption (AES) or asymmetric encryption (RSA) for encrypting data before embedding.
+- Least Significant Bit (LSB) Steganography: Implements LSB-based embedding, which modifies the least significant bits of pixels or audio samples, making data insertion nearly imperceptible.
+- Performance Optimization: MATLAB-based optimization of cryptographic and steganographic algorithms to balance security with speed and efficiency.
+- User-Friendly Interface: Provides a MATLAB GUI that simplifies the encryption, embedding, extraction, and decryption processes for users.
+- Robustness Against Detection: Resistant to steganalysis and cryptanalysis, making it suitable for high-risk data environments.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+- MATLAB (latest version): For algorithm implementation, testing, and GUI development.
+- Image Processing Toolbox: Essential for performing operations on images, particularly for LSB embedding and extraction.
+- Signal Processing Toolbox: Useful for audio steganography, where data can be embedded within audio signals.
+- Cryptography Package: For implementing AES and RSA encryption algorithms within MATLAB.
+- Computer Requirements: Minimum 4GB RAM, 2 GHz processor, and 10GB disk space for smooth MATLAB operation.
+- Compatible File Formats: Supports PNG, JPEG (for image steganography), and WAV, MP3 (for audio steganography).
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
-
+![SystemArc](https://github.com/user-attachments/assets/9147f35e-f440-42ef-8d1c-67d46f88a228)
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output 1 
+![op1](https://github.com/user-attachments/assets/3eb214d5-6d85-4b57-acbe-cfe64aeecea8)
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+#### Output 2
+![op2](https://github.com/user-attachments/assets/6445b733-b844-4e15-9de5-c5c19b20b233)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+Detection Accuracy:
+- Steganography Accuracy: The system is optimized to minimize detectable alterations, ensuring the embedded data remains invisible to human eyes and detection tools. MATLAB simulations test against common steganalysis techniques.
+- Cryptography Accuracy: Encryption algorithms are tested to maintain integrity and consistency in data encryption and decryption. MATLAB helps verify that encrypted data accurately matches the decrypted output, ensuring robustness against decryption errors.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+- Enhanced Security: Dual-layer security significantly reduces risks associated with data transmission, making StegoCrypt suitable for high-stakes environments like military, finance, and corporate data security.
+- MATLAB-Driven Efficiency: Using MATLAB for optimization results in efficient processing times and minimal computational load, even with large data sets.
+- User Adoption: The MATLAB GUI makes StegoCrypt accessible, encouraging adoption in non-technical environments.
+- Real-World Applications: Suitable for secure data sharing in industries where information security is critical. This includes secure communication of financial records, healthcare data, and sensitive corporate information.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. Gupta, S. S., & Gupta, P. K. (2018). "An Overview of Cryptography and Steganography Techniques." International Journal of Computer Science and Engineering.
 
+2. Mallik, R., Krishna, P., & Rao, P. S. (2016). "An Efficient and Secure Data Transmission Based on Cryptography and Steganography." ResearchGate.
 
+3. Pawar, B., & Shinde, G. (2019). "A Review on Combined Approach of Steganography and Cryptography." ResearchGate.
 
+4. Sahu, S. K., & Sahu, A. K. (2015). "A Survey of Image Steganography Techniques." International Journal of Computer Applications.
 
+5. Kaur, A. B., & Kaur, H. (2016). "Digital Image Steganography: A Review." International Journal of Computer Applications.
+
+6. Sharma, A., & Kumari, P. (2019). "Steganography: A Review of the Techniques and Applications." ResearchGate.
+
+7. Acharya, M. V., Kittur, H. M., & Mehtre, S. M. (2020). "Enhanced Security Using Cryptography and Steganography Techniques: A Review." International Journal of Engineering Research and Technology.
+
+8. Shaikh, A., Patil, M., & Shah, A. (2019). "Hybrid Cryptography and Steganography Approach for Secure Data Communication." International Journal of Recent Technology and Engineering.
